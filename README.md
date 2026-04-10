@@ -36,7 +36,7 @@ in the `data/` folder at the root of the Day 1 directory. It contains:
 - `phi5` — phase reference for the 5th harmonic
 
 **Outputs:**
-- `alpha_1` to `alpha_17` — optimal switching angles (radians)
+- alpha_1 to `alpha_17` — optimal switching angles (radians)
 
 ## Requirements
 
