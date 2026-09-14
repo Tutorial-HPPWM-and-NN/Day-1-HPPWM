@@ -46,6 +46,12 @@ Python 3.9+ is required. Install dependencies with:
 pip install -r requirements.txt
 ```
 
+| Library | Version | Description |
+|---|---|---|
+| [NumPy](https://numpy.org/) | `2.4.2` | Foundational library for numerical computing in Python. Provides the `ndarray`, a fast, memory-efficient array object, plus a wide range of mathematical functions (linear algebra, Fourier transforms, random number generation, etc.) that operate on arrays without slow Python loops. Nearly every other scientific Python library is built on top of it. |
+| [pandas](https://pandas.pydata.org/) | `3.0.1` | Data manipulation and analysis library built around the `Series` (1D) and `DataFrame` (2D, table-like) structures. Makes it easy to load, clean, filter, group, merge, and reshape structured data, and supports many file formats (CSV, Excel, SQL, Parquet, JSON, etc.). |
+| [SciPy](https://scipy.org/) | `1.17.1` | Extends NumPy with higher-level scientific and engineering algorithms — optimization, integration, interpolation, signal and image processing, linear algebra, statistics, and sparse matrices. The go-to library for ready-made implementations of numerical methods. |
+| [tqdm](https://github.com/tqdm/tqdm) | `4.67.1` | Lightweight utility that adds a smart, low-overhead progress bar to loops and iterables with minimal code changes. Purely a usability tool with no effect on the underlying computation. |
 ## Important Note on Exercise 3
 
 Exercise 3 requires modifying the SciPy library installed in your Python
