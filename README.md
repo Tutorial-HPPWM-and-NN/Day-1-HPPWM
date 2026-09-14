@@ -39,8 +39,8 @@ in the `data/` folder at the root of the Day 1 directory. It contains:
 - `alpha_1` to `alpha_17` — optimal switching angles (radians)
 
 ## Requirements
-
-Python 3.9+ is required. Install dependencies with:
+* Visual Studio
+* Python 3.9+ is required. Install dependencies with:
 
 ```bash
 pip install -r requirements.txt
