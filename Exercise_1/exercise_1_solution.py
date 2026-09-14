@@ -139,5 +139,5 @@ if __name__ == "__main__":
     # This forces the solver to navigate blindly and demonstrates local trapping.
     x0_bad = np.linspace(0.05, np.pi / 2, config["N_ANGLES"])
 
-    run_sqp_solver(x0_good, m_ref, phi_ref, config, label="GOOD INITIAL GUESS")
-    run_sqp_solver(x0_bad,  m_ref, phi_ref, config, label="BAD INITIAL GUESS (TRAPPED)")
+    x_final_good, err_good = run_sqp_solver(x0_good, m_ref, phi_ref, config, label="GOOD INITIAL GUESS")
+    x_final_bad,  err_bad  = run_sqp_solver(x0_bad,  m_ref, phi_ref, config, label="BAD INITIAL GUESS (TRAPPED)")
