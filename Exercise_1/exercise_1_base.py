@@ -20,7 +20,7 @@ def get_config():
 def calculate_fourier_coefficients(alpha, h):
     """
     Calculates the Fourier coefficients (a_h, b_h) for harmonic order h
-    using the Virtual Angles formulation for Half-Wave Symmetry (HWS).
+    for Half-Wave Symmetry (HWS).
     """
     a_h = -(2.0 / (h * np.pi)) * np.sum(
         [(-1) ** (k + 1) * np.sin(h * alpha[k]) for k in range(len(alpha))]
