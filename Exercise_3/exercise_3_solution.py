@@ -9,8 +9,10 @@ from scipy.optimize import minimize, hybrid_differential_evolution
 # installed into your SciPy environment. Follow these steps:
 #
 #   1. Find your SciPy installation path:
+#       Using python terminal 
 #      >>> import scipy; print(scipy.__file__)
-#
+#       Using DOS
+#      python -c "import scipy.optimize, os; print(os.path.dirname(scipy.optimize.__file__))"
 #   2. Navigate to the scipy/optimize/ directory.
 #
 #   3. Copy _hybrid_differential_evolution.py (provided in this repository)
@@ -18,8 +20,9 @@ from scipy.optimize import minimize, hybrid_differential_evolution
 #
 #   4. Open __init__.py in the same directory and add the following line
 #      immediately after the differential_evolution import:
-#        from ._hybrid_differential_evolution import hybrid_differential_evolution
+#      from ._hybrid_differential_evolution import hybrid_differential_evolution
 #
+#      Note: You can search the following line into the file. Paste the new line below this one: "from ._differentialevolution import differential_evolution"
 #   5. Save __init__.py.
 #
 # Using a virtual environment is strongly recommended to isolate this change.
