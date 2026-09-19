@@ -62,6 +62,7 @@ works) before continuing.
 **Windows (PowerShell or cmd):**
 ```bash
 py -3.10 -m venv Day_1_environment
+Set-ExecutionPolicy -Scope CurrentUser -ExecutionPolicy RemoteSigned
 Day_1_environment\Scripts\activate
 ```
 
