@@ -58,6 +58,7 @@ https://www.python.org/downloads/release/python-31011/ (any 3.10.x build
 works) before continuing.
 
 ### 2. Create and activate a virtual environment named `Day_1_environment`
+Go to your day1 tutorial folder and:
 
 **Windows (PowerShell or cmd):**
 ```bash
